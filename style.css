@@ -1,0 +1,47 @@
+body {
+    background-color: #4b4b4b;
+    min-height: 100vh;
+}
+
+.mycontainer {
+    background-color: #130f40;
+    border: 5px ridge #e1b12c;
+    border-radius: 25px;
+    width: 70%;
+}
+
+.myrow {
+    height: 100px;
+    width: 300px;
+}
+
+.mycol {
+    height: 100px;
+    width: 100px;
+    background-color: #55efc4;
+}
+
+.mycol:hover {
+    background-color: #ffda79;
+    cursor: pointer;
+}
+
+#winner-display {
+    height: 50px;
+}
+
+.neon-color {
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px,
+      0 0 82px,
+      0 0 92px,
+      0 0 102px,
+      0 0 151px;
+}
+
+.reset:hover {
+    cursor: pointer;
+}
